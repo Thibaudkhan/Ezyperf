@@ -52,7 +52,7 @@
 					<span class="infobulle" aria-label="Page en construction" ><a href="#1">&Agrave; PROPOS</a></span>
 				</li>
 				<li class="stories navCouleurEzy">
-					<a href="succesStories.php"><span class="infobulle"aria-label="Page en construction" >SUCCES STORIES</a></span>
+					<a href="succesStories.php">SUCCES STORIES</a>
 				</li>
 				<li class="ressources navCouleurEzy">						
 						<a href="#1"><span class="infobulle"aria-label="Page en construction" >RESSOURCES</a></span>

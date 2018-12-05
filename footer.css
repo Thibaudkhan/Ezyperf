@@ -146,14 +146,38 @@ li{
 	margin-bottom: 20px;
 }
 
+.accueil_clients li{
+		margin-bottom: 20px;
+}
+
 .grossissement{
 	font-size: 26px;
 }
-@media screen and (max-width: 1250px){
-	
-	footer{
+@media screen and (max-width: 860px){
+
+	.carre_picto,
+	.bloc1,
+	.bloc2{
 		display: none
 	}
 
+	.bloc3,
+	.copyright{
+		margin: 0;
+		background: linear-gradient(to right, rgb(91,190,181), rgb(127,51,125));
+		width: 100%;
+		color: white;
+		text-align: center;
+		text-decoration:none;
+	}
 
+	.copyright{
+	padding-top: 20px;
+	}
+
+	.copyright a{
+
+		text-decoration:none;
+		color: white;
+	}
 }
