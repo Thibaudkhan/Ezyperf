@@ -71,7 +71,7 @@
 		        <div class="menu">
 		            <a href="#">NOS SOLUTIONS</a>
 		            <a href="#">&Agrave; PROPOS</a>
-		            <a href="#">SUCCES STORIES</a>
+		            <a href="succesStories.php">SUCCES STORIES</a>
 		            <a href="#">RESSOURCES</a>
 		            <a href="#">REJOIGNEZ-NOUS</a>
 		            <a href="#">CONTACT</a>
