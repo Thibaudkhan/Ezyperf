@@ -1,0 +1,101 @@
+.blocSucces{
+	width: 100%;
+	display: flex;
+	padding-top: 50px;
+}
+
+.blocTemoignage{
+	margin-top: 0;
+	background-color: white;
+	color: black;
+	width: 75%;
+	height: 350px;
+	border-width: 2px 0 2px 0;
+	border-style: solid;
+	border-color: grey;
+
+}
+
+.blocTemoignage h2{
+	margin-top: 55px;
+	margin-left: 300px;
+	font-size: 24px;
+	color: rgb(127,51,125);
+}
+
+.blocTemoignage h3{
+	margin-left: 360px;
+	font-size: 14px;
+	color: rgb(127,51,125);
+
+}
+
+.basDuTemoignage{
+	display: flex;
+}
+
+.blocTemoignage .texte p{
+	width: 100%;
+	margin-left: 170px
+
+}
+
+h3{
+	font-weight: 1200px;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.blocTemoignage img{
+	margin-left: 70px;
+	width: 120px;
+	display: flex;
+
+}
+
+.blocConseil {
+	 background: url(images/slide1.2.png) top center ;
+        background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  width: 25%;
+}
+
+.texteLegende{
+	background-color: rgba(127,51,125,0.8);
+	width: 100%;
+	height: 100%;
+	color: white;
+}
+
+.texteLegende h1{
+    padding: 40px;
+	margin: 0;
+	text-align: center;
+}
+
+.texteLegende p{
+	margin: -10px;
+	text-align: center;
+	font-size: 25px;
+}
+
+.texte span{
+	height: 28px;
+    color: rgb(91,190,182);
+    font-size: 50px;
+    display: flex;
+    margin-left: -24px;
+    padding: 0;
+}
+
+.texte .span{
+	color: rgb(91,190,182);
+	font-size: 50px;
+	display: flex;
+	padding: 0;
+    margin-left: 603px;
+    margin-top: -67px;
+}

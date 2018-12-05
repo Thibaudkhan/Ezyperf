@@ -1,0 +1,52 @@
+.fondHumain img {
+	height: 200px;
+	width: 100%;
+}
+
+.logo img{
+	width: 350px;
+	margin-top: 10px;
+	margin-left: 20px;
+
+}
+
+.responsive{
+	display: none;
+}
+
+header{
+	display: flex;
+	background-color: white;
+	height: 120px;
+}
+
+
+@media(max-width: 1390px){
+
+	header{
+	    display: contents;
+	}
+}
+
+@media(max-width: 1025px){
+	header{
+	    display: flex;
+	}
+	
+	.logo img{
+	margin-top: 0;
+	margin-left: 0;
+	}
+}
+
+@media(max-width: 600px){
+	.imageFullEcran{
+		display: none;
+	}
+
+	.responsive{
+		display: flex;
+		width: 100px;
+		height: 100px;
+	}
+}

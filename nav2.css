@@ -1,0 +1,288 @@
+nav
+{
+	width: 100%;
+   margin-top: 3.3%;
+   height: 70px;
+}
+
+nav .nav_Element{
+	 margin-left: 5%;
+	display: flex;
+}
+
+.nav_4Element{
+	display: flex;
+	justify-content: space-around;
+	width: 70%;
+	margin-top: 10px;
+}
+
+.nav_2Element{
+	display: flex;
+	margin-left: 10%;
+}
+
+.rejoindre_case{
+	margin-right: 30px;
+}
+
+/*** Pour le menu derouant***/
+.parent:hover .solutionCont{
+	max-height: 100%;
+	transition: max-height 1mm linear;
+	color:rgb(127,51,125);
+	position: absolute;
+	padding: 0;
+	height: 40%;
+	background-color: rgba(0,0,0,0.8);
+	left: 0;
+	margin-top: 32px;
+	width: 100%;
+
+}
+
+.solutionCont{
+	overflow: hidden;
+	max-height: 0;
+	margin-top: 28px;
+	transition-duration: 0.77s;
+	color:rgb(127,51,125);
+	position: absolute;
+	padding: 0;
+	height: 40%;
+	background: rgba(0,0,0,0.95);
+	left: 0;
+	width: 100%;
+}
+
+
+
+.parent:hover .produitB {
+	margin-top: 30px;
+	
+}
+.produitB {
+	margin-top: 30px;
+	
+}
+
+
+
+.parent{
+	height: 60px;
+}
+
+.solutionCont img{
+	width: 50px;
+}
+
+
+nav ul{
+	display: table;
+	margin:auto;
+	padding-top: 48px;
+	padding-left: 0px;
+	list-style-type:none;
+	text-align:center;
+}
+
+nav ul li{
+	display: table-cell;
+	color:rgb(127,51,125);
+	width: 200px;
+}
+
+.solutionCont a{
+ width:100%;
+ }
+
+.solutionCont li{
+	width: 300px;
+}
+
+.solutionCont  span .gras_ezy{
+	color: rgb(92,190,182);
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+ nav  li a  {
+ display:block;
+ width:145px;
+ text-decoration:none;
+ padding:3px;
+ color: white;
+ }
+
+
+ .navCouleurEzy {
+	color:black;
+	text-align: center;
+}
+
+
+.navCouleurEzy:hover {
+ color:rgb(127,51,125);
+ }
+
+body{
+	margin: 1px;
+	font-family: "Open Sans";
+}
+
+.contact{
+	background-color: rgb(127,51,125);
+    border-radius: 10px 0 10px 0;
+    width: 100px;
+    margin-left: 30px;
+    height: 30px;
+    margin-top: 7px;
+    margin-right: 10px
+}
+
+.contact a{
+	width: 0;
+	text-decoration:none;
+	font-size: 13px;	
+    color: white;
+    padding-left:22% ;
+    padding-top: 6%;
+    
+    
+}
+
+.contact:hover a{
+	color: rgb(92,190,182);
+}
+
+
+
+.rejoindre{
+    width: 150px;
+    border: 3px solid;
+    border-image-source: linear-gradient( rgb(92,190,182), rgb(127,51,125));
+    border-image-slice: 1;
+    padding: 1% 0 1% 0px;
+	}
+
+
+
+.texte_picto{
+	vertical-align: 80%;
+}
+
+a{
+	text-decoration:none;
+}
+
+
+.Kpi_logo_taille img{
+	height: 50px;
+}
+.Cash_logo_taille img{
+	height: 50px;
+}
+
+
+.infobulle {
+  position: relative;  /*les .infobulle deviennent référents*/
+  border-radius: 50%;
+  cursor: not-allowed;
+}
+
+/* on génère un élément :after lors du survol et du focus :*/
+
+.infobulle:hover:after,
+.infobulle:focus:after {
+  content: attr(aria-label);  /* on affiche aria-label */
+  position: absolute;
+  top: -2.4em;
+  left: 50%;
+  transform: translateX(-50%); /* on centre horizontalement  */
+  white-space: nowrap;  /* on interdit le retour à la ligne*/
+  padding: 5px 14px;
+  background: rgb(127,51,125);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+
+.enfant_burger{
+	display: none;
+}
+
+nav .icon {
+    display: none;
+}
+
+
+
+.nav a{
+	display: none;
+}
+
+.nav {
+	margin-left: 80%;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+.menu{
+	background-color: rgba(255,255,255,0.5);
+}
+
+.menu a {
+    text-decoration: none;
+    color: black
+}
+
+label{
+	display: none;
+}
+
+#toggle {
+    display: none;
+}
+
+
+
+/* --RESPONSIVE */
+@media(max-width: 1425px){
+	.nav_2Element {
+   		 margin-left: 10px;
+	}
+}
+
+ @media (max-width: 1350px) {
+	
+	
+	nav .nav_Element{
+		display: none;
+	}
+
+
+  	.nav label {
+	    font-size: 26px;
+    	width: 26px;
+    	height: 10px;
+        display: block;
+        cursor: pointer;
+        padding-top: 80px;
+        
+    }
+    .menu {
+        text-align: center;
+        display: none;
+         width: 400px;
+         margin-left: -400px;
+    }
+    .menu a {
+        display: block;
+
+     
+    }
+    #toggle:checked + .menu {
+        display: block;
+    }
+		
+}

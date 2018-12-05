@@ -1,0 +1,343 @@
+nav
+{
+	display: flex;
+	justify-content: flex-start;
+}
+
+
+nav .nav_Element{
+	 margin-left: 5%;
+	display: flex;
+}
+
+.nav_2Element{
+	display: flex;
+}
+
+.rejoindre_case{
+	margin-right: 30px;
+}
+
+/*** Pour le menu derouant***/
+.parent:hover .solutionCont{
+	max-height: 100%;
+	transition: max-height 1mm linear;
+	color:rgb(127,51,125);
+	position: absolute;
+	padding: 0;
+	height: 40%;
+	background-color: rgba(0,0,0,0.9);
+	left: 0;
+	margin-top: 25px;
+	width: 100%;
+
+}
+
+.solutionCont{
+	overflow: hidden;
+	max-height: 0;
+	margin-top: 20px;
+	transition-duration: 0.77s;
+	color:rgb(127,51,125);
+	position: absolute;
+	padding: 0;
+	height: 40%;
+	background: rgba(0,0,0,0.98);
+	left: 0;
+	width: 100%;
+	
+}
+
+.solutionCont ul{
+	margin-left: 50%;
+	display: flex;
+	justify-content: center;
+}
+
+
+.produitB {
+	left: 0;
+	margin-left: -800px;
+	display: flex;
+	margin-top: 110px;
+	
+}
+
+.produitA{
+	margin-top: 0;
+	left: 0;
+ 	display: flex;
+}
+
+span .texte_picto{
+	width: 100px;
+}
+
+.parent{
+	height: 60px;
+}
+
+.solutionCont img{
+	display: flex;
+	width: 50px;
+}
+
+
+nav ul{
+	width: 0;
+	display: flex;
+	margin:auto;
+	padding-top: 65px;
+	text-align:center;
+	margin-left: 150px;
+    
+}
+
+nav ul li{
+	display: flex;
+	color:rgb(127,51,125);
+	height: 30px;
+}
+
+.solutionCont a{
+ width:100%;
+ color: white;
+ }
+
+.solutionCont li{
+	width: 200px;
+}
+
+.solutionCont  span .gras_ezy{
+	color: rgb(92,190,182);
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+ nav  li a  {
+ display:block;
+ width:145px;
+ text-decoration:none;
+ padding:3px;
+ color: black;
+ }
+
+
+ .navCouleurEzy {
+	color:black;
+	margin-right: 25px;
+	text-align: center;
+}
+
+
+.navCouleurEzy:hover {
+ color:rgb(127,51,125);
+ }
+
+body{
+	margin: 1px;
+	font-family: "Open Sans";
+}
+
+.contact{
+	background-color: rgb(127,51,125);
+    border-radius: 10px 0 10px 0;
+    width: 100px;
+}
+
+.contact a{
+    padding-top: 6px;
+	text-decoration:none;
+	font-size: 13px;	
+    color: white;
+}
+
+.contact:hover a{
+	color: rgb(92,190,182);
+}
+
+
+
+.rejoindre{
+	margin-left: inherit;
+    margin-top: -4px;	
+    width: 150px;
+    border: 3px solid;
+    border-image-source: linear-gradient( rgb(92,190,182), rgb(127,51,125));
+    border-image-slice: 1;
+	}
+
+
+
+.texte_picto{
+	display: flex;
+	margin-top: -30px;
+    margin-left: 40px;
+}
+
+a{
+	text-decoration:none;
+}
+
+.rejoindre a{
+	padding-top: 5px;
+}
+
+.Kpi_logo_taille img{
+	height: 50px;
+	width: 60px;
+}
+.Cash_logo_taille img{
+	height: 50px;
+    width: 60px;
+}
+
+
+.infobulle {
+  position: relative; 
+  border-radius: 50%;
+  cursor: not-allowed;
+}
+
+
+.infobulle:hover:after,
+.infobulle:focus:after {
+  content: attr(aria-label);  
+  position: absolute;
+  top: -2.4em;
+  left: 50%;
+  transform: translateX(-50%); 
+  white-space: nowrap;  
+  padding: 5px 14px;
+  background: rgb(127,51,125);
+  color: #fff;
+  border-radius: 4px;
+  font-size: 1.2rem;
+}
+
+
+/* burger */
+
+
+.burger {
+	display: none;
+	margin-left: auto;
+    text-align: right;
+    height: 70px;
+    line-height: 70px;
+}
+.menu{
+	background-color: rgba(0,0,0,0.9);
+}
+
+.menu a {
+    text-decoration: none;
+    color: white;
+}
+
+label{
+	display: none;
+}
+
+#toggle {
+  display: none;
+}
+
+
+
+/* --RESPONSIVE */
+@media(max-width: 1500px){
+	.navCouleurEzy{
+		margin-right: 10px;
+	}
+}
+
+@media(max-width: 1390px){
+		nav{
+			height: 50px;
+			/*padding-right: 30px;*/
+		}
+
+		nav ul{
+			padding-top: 10px;
+		    margin-left: 0;
+	        padding-left: 15px;
+
+		}
+		.parent:hover .solutionCont{
+			margin-top:  10px;
+		}
+		.solutionCont{
+			margin-top: 5px;
+		}
+		.solutionCont ul{
+		margin-top: 40px;
+		margin-left: 50%;
+		display: flex;
+		justify-content: center;
+		}
+
+}
+
+ @media (max-width: 1025px) {
+	
+	html,body{
+		margin: 0;
+		left: 0;
+		right: 0;
+		padding: 0;
+
+	}
+
+
+	nav{
+   		 width: 100%;
+	}
+
+	nav ul{
+		display: none;
+	}
+
+	.burger
+	{
+		display: block;
+	}
+
+  	.burger label {
+	    font-size: 26px;
+    	height: 10px;
+        display: block;
+        cursor: pointer;
+        padding-top: 70px;
+        
+    }
+    .menu {
+        text-align: center;
+        display: none;
+         width: 350px;
+         margin-top: 40px;
+         margin-left: -327px;
+    }
+    .menu a {
+        display: block;
+    }
+    #toggle:checked + .menu {
+        display: block;
+        justify-content: flex-end;
+    }
+		
+}
+
+
+@media( max-width: 1700px){
+
+	nav ul{
+		margin-left: 80px;
+	}
+}
+@media( max-width: 1600px){
+
+	nav ul{
+		margin-left: 30px;
+	}
+}

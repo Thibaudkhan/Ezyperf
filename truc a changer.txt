@@ -1,0 +1,78 @@
+réduirez l'espace entre le h1 et le h2 
+
+Des solutions simples = gras
+Mettre un accent à A propos 
+recenter rejoingnez nous 
+rgb()
+#f0811a = orange 
+aligner les textes des picto
+maigri le carre contact
+footer reduire margin
+
+en survol du menu mettre un commentaire en construction 
+////
+
+
+
+changer la photo 1 ///DONE
+
+
+mettre les noms des appli au centre des logos ////DONE
+
+center le text dans les picto //DONE
+
+Picto plus grande Kpi Cash ///DONE
+
+mettre les picto font-awnson /// DONE
+
+
+opacité trop faible barre noir ///DONE
+
+réduire les logo clients et les rapprocher ////DONE
+
+aligner les picto au centre.  ///DONE
+
+sur-mesure* ////DONE
+
+augmenter l'espace entre picto et ezy... ////DONE
+
+interlétré les mots en maj ////DONE
+
+enlever l'effet lien ///DONE
+
+augmenter l'espace entre ezy tailor et copirygy ///DONE
+
+Dépassez les limites de vos tableurs par des process collaboratifs et sécurisés///DONE
+
+développement(ligne 1) de solutions innovante ///DONE
+
+mettre -ter pour image slide 3. ///DONE
+
+mettre en bleu le hover sur contact ///DONE
+
+séparer un peu la barre et la maigrir///DONE
+
+dépasser ... sécurisé ///DONE
+
+h1  accueil font weight 400 ////Done
+
+font size 55 ////Done
+
+
+
+
+///Contact
+reduire le gras pour bureaux ////DONE
+augmenter les icons
+font awnsone tel mis mieux.///NO 
+reduire la taille des adresse.///*DONE
+mettre une pour contact.??
+bureau* ///DONE
+mettre numéro neuvitec ///DONE
+pas de 06 ///DONE
+80
+
+upercase
+
+
+sales@ezyperf.com??????

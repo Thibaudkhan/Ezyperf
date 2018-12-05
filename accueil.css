@@ -1,0 +1,202 @@
+button{
+    background-color : rgba(0,0,0,0);
+    border-color : rgba(0,0,0,0);
+    border:none;
+    outline:none;
+}
+
+div
+{
+    //border : solid;
+    
+}
+.accueil_bloc1{
+    height: 500px;
+     
+}
+
+.accueil_bloc1.un{
+
+    background: url(images/slide1.2.png) top center ;
+        background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+.accueil_bloc1.deux{
+    background: url(images/slide02.jpg) top center ;
+        background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+.accueil_bloc1.trois{
+    background: url(images/slide03-ter.jpg) top center ;
+        background-repeat:no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.legende{
+    width:700px;
+    height:100%;
+    float: right;
+    color: white;
+}
+.un .legende{
+    background-color : rgba(127,51,125,0.80);
+}
+.deux .legende{
+    background-color : rgba(91,190,182,0.80);
+}
+.trois .legende{
+    background-color : rgba(253,106,2,0.80);
+}
+
+.legende_gauche{
+    display: inline-block;
+    padding-left : 10%;
+    width: 66%;
+}
+.legende_titre{
+
+    font-size : 3.5em;
+}
+.legende_trait{
+    background-color:white;
+    width : 200px;
+    height: 4px;
+    
+}
+.legende_texte{
+    font-size : 2.5em;
+    font-style : bold;
+}
+.legende_droite{
+    display: inline-block;
+    width: 12%;
+    padding-left : 2%;
+    padding : 5%;
+}
+.legende_droite img
+{
+    width:100%;
+}
+
+h1{
+  padding-top: 0;
+  font-size: 50px;
+  text-align : center;  
+  color: rgb(60,60,60);
+  margin-bottom: -35px;;
+  font-weight: 400;
+}
+h1 span{
+    font-weight : 800;
+}
+
+h2{
+  font-size: 22px;
+  text-align : center;  
+  color: rgb(60,60,60);
+    font-weight: 600;
+    margin-bottom: 50px
+
+}
+
+.h1{
+  margin-bottom: : 80px;
+}
+
+.h1 h2{
+  letter-spacing: 1px;
+}
+
+.h1 h2 span{
+  font-weight : 800;
+}
+
+.accueil_separateur{
+  height: 8px;
+  width: 170px;
+  background: linear-gradient(to right, rgb(92,190,182), rgb(127,51,125));
+  margin: auto;
+  border-radius: 10px;
+
+}
+
+.image_menu img
+{
+	width: 100%;
+}
+
+.block_client
+{
+	display: flex;
+  margin-top: 50px;
+}
+
+.block_client .temoignage
+{
+	display: flex;
+	float: left;
+}
+
+h3{
+  letter-spacing: 1px;
+  text-align: center;
+   color: rgb(60,60,60);
+   font-size: 16px;
+}
+
+li{
+	list-style-type:none;
+}
+
+.legende_titre p{
+  padding-top: 0px;
+  margin-top: 20%;
+  margin-bottom: 5%;
+}
+
+.legende_text p{
+  margin-top: 10%;
+}
+
+.accueil_clients img{
+  width: 200px;
+  margin-right: 70px;
+
+
+}
+
+.accueil_clients ul{
+   display: flex;
+  justify-content: center;
+    align-items: center;
+
+}
+
+
+.Danone_logo img{
+  width:  130px; 
+}
+
+.Savencia_logo img{
+  width:  250px;
+}
+
+@media screen and (max-width: 1250px){
+  .accueil_clients ul{
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+
+  }
+
+  }
