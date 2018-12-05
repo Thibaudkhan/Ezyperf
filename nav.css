@@ -255,7 +255,7 @@ label{
 @media(max-width: 1390px){
 		nav{
 			height: 50px;
-			/*padding-right: 30px;*/
+
 		}
 
 		nav ul{
@@ -300,6 +300,7 @@ label{
 
 	.burger
 	{
+		z-index: 1;
 		display: block;
 	}
 
@@ -308,7 +309,7 @@ label{
     	height: 10px;
         display: block;
         cursor: pointer;
-       padding-right: 30px;
+
         
     }
     .menu {
@@ -322,6 +323,7 @@ label{
         display: block;
     }
     #toggle:checked + .menu {
+    	    margin-top: 110px;
         display: block;
         justify-content: flex-end;
     }
