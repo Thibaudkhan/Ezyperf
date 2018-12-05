@@ -172,11 +172,11 @@ li{
 	}
 
 	.copyright{
+    font-size: 10px;
 	padding-top: 20px;
 	}
 
 	.copyright a{
-
 		text-decoration:none;
 		color: white;
 	}
