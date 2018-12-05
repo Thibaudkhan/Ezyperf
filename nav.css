@@ -304,11 +304,11 @@ label{
 	}
 
   	.burger label {
-	    font-size: 26px;
+	    font-size: 35px;
     	height: 10px;
         display: block;
         cursor: pointer;
-        padding-top: 70px;
+       padding-right: 30px;
         
     }
     .menu {
