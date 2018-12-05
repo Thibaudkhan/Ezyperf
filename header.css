@@ -28,7 +28,7 @@ header{
 	}
 }
 
-@media(max-width: 1025px){
+@media screen and (max-width: 1025px){
 	header{
 	    display: flex;
 	}
@@ -39,14 +39,10 @@ header{
 	}
 }
 
-@media(max-width: 600px){
-	.imageFullEcran{
-		display: none;
+@media screen and (max-width: 600px){
+	.imageFullEcran img{
+		width: 250px;
+		height: 70px;
 	}
 
-	.responsive{
-		display: flex;
-		width: 100px;
-		height: 100px;
-	}
 }

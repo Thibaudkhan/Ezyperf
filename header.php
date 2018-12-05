@@ -10,7 +10,6 @@
 			<div class="logo">
 				<a href="accueil.php">
 					<div class="imageFullEcran"><img src="images/logo.png"></div>
-					<div class="responsive"><img src="images/mini_logo.png"></div>
 				</a>
 			</div>
 			<?php include 'nav.php'; ?>
