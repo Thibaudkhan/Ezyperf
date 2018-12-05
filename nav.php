@@ -49,7 +49,7 @@
 			</div>
 			</div>
 				<li class="propos navCouleurEzy">
-					<span class="infobulle" aria-label="Page en construction" ><a href="#1">&Agrave; PROPOS</a></span>
+					<a href="#1"><span class="infobulle" aria-label="Page en construction" >&Agrave; PROPOS</a></span>
 				</li>
 				<li class="stories navCouleurEzy">
 					<a href="succesStories.php">SUCCES STORIES</a>
