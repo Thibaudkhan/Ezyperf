@@ -21,37 +21,37 @@
 	<div class="blocMere">
 			<div class="bloc1">
 				<ul>
-					<li class="enter"><B>	&Agrave; PROPOS</B></li>
-					<li>Nos Valeurs</li>
-					<li>Notre équipe</li>
-					<li>Actions sociales</li>
+					<li class="enter"><a href="#1" ><B>	&Agrave; PROPOS</B></a></li>
+					<li><a href="#1" >Nos Valeurs</a></li>
+					<li><a href="#1" >Notre équipe</a></li>
+					<li><a href="#1" >Actions sociales</a></li>
 					<br />
-					<li><B>SUCCES STORIES</B></li>
-					<li><B>RESSOURCES</B></li>
-					<li><B>NOUS REJOINDRE</B></li>
+					<li><a href="#1" ><B>SUCCES STORIES</B></a></li>
+					<li><a href="#1" ><B>RESSOURCES</B></a></li>
+					<li><a href="#1" ><B>NOUS REJOINDRE</B></a></li>
 				</ul>
 			</div>
 			<div class="bloc2">
 				<ul>
-					<li class="enter"><B>NOS SOLUTIONS</B></li>
-					<li><B>Ezy</B> Capex</li>
-					<li><B>Ezy</B> Achat</li>
-					<li><B>Ezy</B> Supply</li>
-					<li><B>Ezy</B> KPI</li>
-					<li><B>Ezy</B> Prod</li>
-					<li><B>Ezy</B> Ventes</li>
-					<li><B>Ezy</B> Cash</li>
-					<li><B>Ezy</B> Tailor-made</li>
+					<li class="enter"><B>NOS SOLUTIONS</B></a></li>
+					<li><a href="#1" ><B>Ezy</B> Capex</a></li>
+					<li><a href="#1" ><B>Ezy</B> Achat</a></li>
+					<li><a href="#1" ><B>Ezy</B> Supply</a></li>
+					<li><a href="#1" ><B>Ezy</B> KPI</a></li>
+					<li><a href="#1" ><B>Ezy</B> Prod</a></li>
+					<li><a href="#1" ><B>Ezy</B> Ventes</a></li>
+					<li><a href="#1" ><B>Ezy</B> Cash</a></li>
+					<li><a href="#1" ><B>Ezy</B> Tailor-made</a></li>
 				</ul>
 			</div>
 			<div class="bloc3">
 				<ul>
-					<li class="enter_2"><B>CONTACT</B></li>
-					<li>  <li><i class="grossissement fas fa-mobile-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;+33 (0)1 55 43 15 15</li>
+					<li class="enter_2"><a href="#1" ><B>CONTACT</B></a></li>
+					<li><p><i class="grossissement fas fa-mobile-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;+33 (0)1 55 43 15 15</p></li>
 					<br />
-					<li><i class="grossissement far fa-envelope"></i>&nbsp;&nbsp;&nbsp;sales@ezyperf.com</li>
+					<li><p><i class="grossissement far fa-envelope"></i>&nbsp;&nbsp;&nbsp;sales@ezyperf.com</p></li>
 					<br />
-					<li><i class="grossissement fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;Nous suivre sur linkedin</li>
+					<li><p><i class="grossissement fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;Nous suivre sur linkedin</p></li>
 				</ul>
 				
 			</div>

@@ -244,9 +244,12 @@ li{
 
 @media screen and (max-width: 1250px){
   .accueil_clients ul{
+    padding: 0;
     margin-top: 50px;
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
   }
 }
@@ -265,11 +268,12 @@ li{
   }
 
   h1{
-
+    font-size: 30px;
     padding-left: 30px;
   }
 
   h2{
+     font-size: 23px;
     padding-top: 40px;
     padding-left: 30px;
   }
@@ -288,4 +292,23 @@ li{
 
   }
 
+  .accueil_clients img{
+    margin: 0;
+  }
+
+  .Savencia_logo img{
+    width: 200px;
+  }
+
+  .Danone_logo img{
+  width:  100px; 
+}
+
+  .Coty_logo img{
+  width: 150px;
+  }
+
+  .Hanes_logo img {
+    width: 150px;
+  }
 }

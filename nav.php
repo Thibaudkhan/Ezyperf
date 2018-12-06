@@ -74,7 +74,7 @@
 		            <a href="succesStories.php">SUCCES STORIES</a>
 		            <a href="#">RESSOURCES</a>
 		            <a href="#">REJOIGNEZ-NOUS</a>
-		            <a href="#">CONTACT</a>
+		            <a href="contact.php">CONTACT</a>
        			 </div>
 		    </div>
 		</nav>

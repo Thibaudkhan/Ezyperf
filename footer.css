@@ -1,3 +1,8 @@
+.blocMere a{
+	text-decoration: none;
+	color: rgb(127,51,125);
+}
+
 .picto{
 	background: linear-gradient(to right, rgb(91,190,181), rgb(127,51,125));
 	width: 100%;
@@ -172,7 +177,8 @@ li{
 	}
 
 	.copyright{
-    font-size: 10px;
+    font-size: 6px;
+    text-align: center;
 	padding-top: 20px;
 	}
 
@@ -180,4 +186,26 @@ li{
 		text-decoration:none;
 		color: white;
 	}
+
+	.enter_2 {
+		margin-bottom: 10px; 
+		font-size: 20px;
+	}
+
+	.bloc3 p{
+    margin-bottom: -26px;
+    font-size: 12px;
+	}
+
+	.blocMere a{
+	color: white;
+	}
+	.grossissement{
+		font-size: 16px;
+	}
+
+	.Hanes_logo{
+		height: 75px;
+	}
+
 }
