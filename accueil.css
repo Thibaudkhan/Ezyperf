@@ -47,6 +47,7 @@ div
     height:100%;
     float: right;
     color: white;
+    transition: all 200ms ease-in;
 }
 .un .legende{
     background-color : rgba(127,51,125,0.80);
@@ -205,7 +206,12 @@ li{
   display: none;
 }
 
-
+.legende:hover{
+  cursor: pointer;
+  transform: scale(1.2) translate(-8.3%, 40px);
+  box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+}
 
 
 .legende_3 ul{

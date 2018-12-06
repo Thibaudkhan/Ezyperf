@@ -38,19 +38,82 @@
 					</div>
 				</div>
 			</div>
-			<div class="blocTemoignage">
-				<h2>RENAUD POUGET</h2>
-				<h3>Responsable Capex - <strong>EVIAN Volvic World Sources, </strong> Groupe DANONE</h3>
-				<div class="basDuTemoignage">
-					<div class="imageTexte"><img src="images/DanoneC.jpg"></div>
-					<div class="texte">
-						<p> <span>&ldquo;</span> Plus que la mise en &#156;uvre d'un outil,<br /> <strong>l'accompagnement et l'expertise d'Ezyperf</strong><br /> nous ont permis <strong>d'optimiser nos processus de gestion<br /> des investissements</strong> dans le cadre du projet EVIAN 2015 <div class="span">&bdquo;</div ></p>
+			<div class="grosBloc">
+				<div class="blocTemoignage">
+					<h2>RENAUD POUGET</h2>
+					<h3>Responsable Capex - <strong>EVIAN Volvic World Sources, </strong> Groupe DANONE</h3>
+					<div class="basDuTemoignage">
+						<div class="imageTexte"><img src="images/DanoneC.jpg"></div>
+						<div class="texte">
+							<p> <img src="images/go.png"> Plus que la mise en &#156;uvre d'un outil,<br /> <strong>l'accompagnement et l'expertise d'Ezyperf</strong><br /> nous ont permis <strong>d'optimiser nos processus de gestion<br /> des investissements</strong> dans le cadre du projet EVIAN 2015 <a><img src="images/gf.png"></a></p>
+						</div>
 					</div>
 				</div>
+				<div class="legende_gauche">
+	          	  <button onclick="plusDivs(1)"> <img src="images/fleche_gauche"/></button>
+	        	</div>
+				<div class="legende_droite">
+                	<button onclick="plusDivs(1)"> <img src="images/fleche_droite"/></button>
+        		</div>
 			</div>
+			<div class="grosBloc">
+				<div class="blocTemoignage ">
+					<h2>Test</h2>
+					<h3>Responsable Capex - <strong>EVIAN Volvic World Sources, </strong> Groupe DANONE</h3>
+					<div class="basDuTemoignage">
+						<div class="imageTexte"><img src="images/DanoneC.jpg"></div>
+						<div class="texte">
+							<p> <img src="images/go.png"> Plus que la mise en &#156;uvre d'un outil,<br /> <strong>l'accompagnement et l'expertise d'Ezyperf</strong><br /> nous ont permis <strong>d'optimiser nos processus de gestion<br /> des investissements</strong> dans le cadre du projet EVIAN 2015 <a><img src="images/gf.png"></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="legende_gauche">
+	          	  <button onclick="plusDivs(-1)"> <img src="images/fleche_gauche"/></button>
+	        	</div>
+				<div class="legende_droite">
+	          	  <button onclick="plusDivs(1)"> <img src="images/fleche_droite"/></button>
+	        	</div>
+        	</div>
+        	<div class="grosBloc">
+				<div class="blocTemoignage ">
+					<h2>blala3</h2>
+					<h3>Responsable Capex - <strong>EVIAN Volvic World Sources, </strong> Groupe DANONE</h3>
+					<div class="basDuTemoignage">
+						<div class="imageTexte"><img src="images/DanoneC.jpg"></div>
+						<div class="texte">
+							<p> <img src="images/go.png"> Plus que la mise en &#156;uvre d'un outil,<br /> <strong>l'accompagnement et l'expertise d'Ezyperf</strong><br /> nous ont permis <strong>d'optimiser nos processus de gestion<br /> des investissements</strong> dans le cadre du projet EVIAN 2015 <a><img src="images/gf.png"></a></p>
+						</div>
+					</div>
+				</div>
+				<div class="legende_gauche">
+	          	  <button onclick="plusDivs(-1)"> <img src="images/fleche_gauche"/></button>
+	        	</div>
+				<div class="legende_droite">
+	          	  <button onclick="plusDivs(1)"> <img src="images/fleche_droite"/></button>
+	        	</div>
+        	</div>
 		</div>
 
 
 		<?php include "footer.php"?>
+	<script>
+        var slideIndex = 1;
+        showDivs(slideIndex);
+
+        function plusDivs(n) {
+            showDivs(slideIndex += n);
+        }
+
+        function showDivs(n) {
+            var i;
+            var x = document.getElementsByClassName("grosBloc");
+            if (n > x.length) {slideIndex = 1}    
+            if (n < 1) {slideIndex = x.length}
+            for (i = 0; i < x.length; i++) {
+                x[i].style.display = "none";  
+            }
+            x[slideIndex-1].style.display = "block";  
+        }
+    </script> 
 </body>
 </html>

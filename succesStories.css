@@ -5,10 +5,11 @@
 
 .bloc4{
 	text-align: center;
-	
+  	box-shadow: 0px 5px 4px grey;
 	color: white;
 	display: flex;
 	justify-content: center;
+
 }
 
 .imagePictoTailored img{
@@ -17,13 +18,18 @@
 }
 
 .bloc4 p{
-	letter-spacing: 1.5px;
-	font-size: 22px;
+    font-size: 25px;
+    letter-spacing: 1px;
+	display:inline-block;
+    border:0;
+    width:196px;
+    height:210px;
+    
 }
 
 .separateur{
 	margin-top: -15px;
-	height: 6px;
+	height: 5px;
 	width: 30%;
 	margin-left: 35%;
 	background-color:  white;
@@ -52,17 +58,51 @@ p span{
 .efficacite{
 	background-color: rgba(127,51,125,0.8);
 	width: 25%;
+	transition: all 200ms ease-in;
+	
 }
 
 .collaboratif{
 	background-color: rgba(92,190,182,0.8);
 	width: 25%;
+	transition: all 200ms ease-in;
 }
 .securisation{
 	 background-color: rgba(253,106,2,0.8);
 	 width: 25%;
+	 transition: all 200ms ease-in;
 }
+
+.simplicite:hover,
+.securisation:hover,
+.collaboratif:hover,
+.efficacite:hover{
+	box-shadow: 0px 0px 150px #000000;
+    z-index: 2;
+    
+}
+
+.securisation:hover,
+.collaboratif:hover{
+	transform: scale(1.2) translate(0%, 25px);
+}
+
+.simplicite:hover
+{
+    transform: scale(1.2) translate(8%, 25px);
+ }
+
+.efficacite:hover{
+    transform: scale(1.2) translate(-8.55%, 25px);
+}
+
 /* temoignage */
+
+.grosBloc{
+	width: 100%;
+}
+
+
 .blocTemoignage{
 	margin: auto;
 	margin-top: 0;
@@ -123,20 +163,45 @@ h3{
 	width: 50%;
 }
 
-.texte span{
-	height: 28px;
-    color: rgb(91,190,182);
-    font-size: 50px;
-    display: flex;
-    margin-left: -24px;
-    padding: 0;
+.texte img{
+	margin-left: -40px;
+	width: 35px;
 }
 
-.texte .span{
-	color: rgb(91,190,182);
-	font-size: 50px;
+.texte a img{
+	margin-top: -10px;
+	margin-left: 430px;
+} 
+
+
+.legende_droite{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.legende_droite img
+{
+	
+    width:70%;
+}
+
+.grosBloc button{
+	margin-right: 40px;
+	margin-top: -340px;
+	display:flex;
+    justify-content: flex-end;
+    background-color : rgba(0,0,0,0);
+    border-color : rgba(0,0,0,0);
+    border:none;
+    outline:none;
+}
+
+.legende_gauche{
 	display: flex;
-	padding: 0;
-    margin-left: 603px;
-    margin-top: -67px;
+    width: 100%;
+}
+.legende_gauche img
+{
+	
+    width:70%;
 }
