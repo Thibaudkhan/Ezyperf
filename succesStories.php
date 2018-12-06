@@ -16,25 +16,25 @@
 						<div class="imagePictoTailored"><img src="images/picto_ezyTailored"></div>
 						<h1>SIMPLICIT&#201;</h1>
 						<div class="separateur"></div>
-						<p><B>Suppression</B><br /> de plus de <br /><B>800 fichiers</B></p>
+						<p><span>Suppression</span><br /> de plus de <br /><span>800 fichiers</span></p>
 					</div>
 					<div class="collaboratif">
 						<div class="imagePictoTailored"><img src="images/picto_ezyTailored"></div>
 						<h1>COLLABORATIF</h1>
 						<div class="separateur"></div>
-						<p>Un chiffre <br /><B>unique Capex</B><br /> partagé</p>
+						<p>Un chiffre <br /><span>unique Capex</span><br /> partagé</p>
 					</div>
 					<div class="securisation">
 						<div class="imagePictoTailored"><img src="images/picto_ezyTailored"></div>
 						<h1>S&#201;CURISATION</h1>
 						<div class="separateur"></div>
-						<p>Routine<br /> de  <B>pilotage<br /> régulière</B></p>
+						<p>Routine<br /> de  <span>pilotage<br /> régulière</span></p>
 					</div>
 					<div class="efficacite">
 						<div class="imagePictoTailored"><img src="images/picto_ezyTailored"></div>
 						<h1>EFFICACIT&#201;</h1>
 						<div class="separateur"></div>
-						<p><B>Accélération</B><br /> du processus <B> <br />de décision </B></p>
+						<p><span>Accélération</span><br /> du processus <span> <br />de décision </span></p>
 					</div>
 				</div>
 			</div>
