@@ -58,7 +58,7 @@
 			</div>
 			<div class="grosBloc">
 				<div class="blocTemoignage ">
-					<h2>Test</h2>
+					<h2>RENAUD POUGET (1)</h2>
 					<h3>Responsable Capex - <strong>EVIAN Volvic World Sources, </strong> Groupe DANONE</h3>
 					<div class="basDuTemoignage">
 						<div class="imageTexte"><img src="images/DanoneC.jpg"></div>
@@ -76,7 +76,7 @@
         	</div>
         	<div class="grosBloc">
 				<div class="blocTemoignage ">
-					<h2>blala3</h2>
+					<h2>RENAUD POUGET (2)</h2>
 					<h3>Responsable Capex - <strong>EVIAN Volvic World Sources, </strong> Groupe DANONE</h3>
 					<div class="basDuTemoignage">
 						<div class="imageTexte"><img src="images/DanoneC.jpg"></div>
