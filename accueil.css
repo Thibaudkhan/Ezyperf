@@ -326,13 +326,15 @@ ul:hover {
 
   h1{
     font-size: 30px;
-    padding-left: 30px;
+    
   }
 
   h2{
+    padding-left: 10px;
+    padding-right: 10px;
      font-size: 23px;
     padding-top: 40px;
-    padding-left: 30px;
+    
   }
 
   h3{
