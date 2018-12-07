@@ -9,7 +9,7 @@
 	color: white;
 	display: flex;
 	justify-content: center;
-	
+
 
 }
 
@@ -58,18 +58,21 @@ p span{
 .simplicite,
 .efficacite{
 	background-color: rgba(127,51,125,0.8);
+	min-width: 255px;
 	width: 25%;
 	transition: all 200ms ease-in;
 	
 }
 
 .collaboratif{
+	min-width: 255px;
 	background-color: rgba(92,190,182,0.8);
 	width: 25%;
 	transition: all 200ms ease-in;
 }
 .securisation{
 	 background-color: rgba(253,106,2,0.8);
+	 min-width: 255px;
 	 width: 25%;
 	 transition: all 200ms ease-in;
 }
@@ -85,16 +88,16 @@ p span{
 
 .securisation:hover,
 .collaboratif:hover{
-	transform: scale(1.2) translate(0%, 25px);
+	transform: scale(1.1) translate(0%, 4.5%);
 }
 
 .simplicite:hover
 {
-    transform: scale(1.2) translate(8%, 25px);
+    transform: scale(1.1) translate(4.9%, 4.5%);
  }
 
 .efficacite:hover{
-    transform: scale(1.2) translate(-8.55%, 25px);
+    transform: scale(1.1) translate(-4.55%, 4.5%);
 }
 
 /* temoignage */
@@ -197,6 +200,18 @@ h3{
     outline:none;
 }
 
+.grosBloc button:hover{
+	cursor: pointer;
+}
+
+.grosBloc img{
+transition: all 200ms ease-in;
+}
+.grosBloc img:hover{
+
+transform: scale(1.2)
+}
+
 .legende_gauche{
 	display: flex;
     width: 100%;
@@ -205,4 +220,21 @@ h3{
 {
 	
     width:70%;
+}
+
+@media screen and (max-width: 1250px){
+
+	.limage{
+		height: 1200px;
+		display: flex;
+		flex-direction: column;
+	}
+
+	.simplicite,
+	.securisation,
+	.collaboratif,
+	.efficacite{
+		height: 25%;
+		width: 50%;
+	}	
 }

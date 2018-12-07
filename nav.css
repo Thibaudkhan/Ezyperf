@@ -300,6 +300,8 @@ label{
 
 	.burger
 	{
+	    width: 100px;
+    	background-color: rgb(137,51,125);
 		z-index: 1;
 		display: block;
 	}
@@ -307,10 +309,10 @@ label{
   	.burger label {
 	    font-size: 35px;
     	height: 10px;
-        display: block;
         cursor: pointer;
-
-        
+        display: flex;
+    	justify-content: center;
+    	color: white;      
     }
     .menu {
         text-align: center;
@@ -323,6 +325,7 @@ label{
         display: block;
     }
     #toggle:checked + .menu {
+    	margin-left: -250.8px;
     	    margin-top: 110px;
         display: block;
         justify-content: flex-end;

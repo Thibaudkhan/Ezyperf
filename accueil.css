@@ -5,6 +5,17 @@ button{
     outline:none;
 }
 
+.legende_droite button:hover{
+  cursor: pointer;
+}
+
+.legende_droite img{
+transition: all 200ms ease-in;
+}
+.legende_droite img:hover{
+
+transform: scale(1.2)
+}
 div
 {
     //border : solid;
@@ -207,14 +218,14 @@ li{
 }
 
 .legende:hover{
-  cursor: pointer;
-  transform: scale(1.2) translate(-8.3%, 41.5px);
+  transform: scale(1.1) translate(-4.5%, 4.5%);
   box-shadow: 0px 0px 150px #000000;
     z-index: 2;
 }
 
 
 .legende_3 ul{
+  transition: all 200ms ease-in;
   margin: 200px 0 0 0 ;
   padding: 0;
 }
@@ -228,6 +239,7 @@ li{
 .carreViolet,
 .carreBleu,
 .carreOrange{
+  transition: all 200ms ease-in;
   height: 50px;
   color: white;
   width: 100%;
@@ -244,8 +256,47 @@ li{
 .blocResponsive .carreBleu{
   background-color: rgba(91,190,182,0.80);
 }
+
 .blocResponsive .carreOrange{
   background-color: rgba(253,106,2,0.80);
+}
+
+
+
+.legende_3 img{
+  display: flex;
+    width: 42px;
+    margin-left: 300px;
+    height: 48px;
+    margin-top: -31px;
+
+}
+
+ul:hover {
+  margin-top: 80px;
+}
+
+.carreBleu:hover .sousText{
+  display: block;
+}
+.carreViolet:hover .sousText{
+   display: block;
+}
+.carreOrange:hover .sousText{
+   display: block;
+}
+
+.sousText{
+  display: none;
+}
+
+
+
+.carreBleu:hover,
+.carreViolet:hover,
+.carreOrange:hover{
+  height: 170px;
+  color: black;
 }
 
 @media screen and (max-width: 1250px){

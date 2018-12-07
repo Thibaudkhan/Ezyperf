@@ -29,7 +29,7 @@
                                     
                 </div>
                 <div class="legende_droite">
-                        <button onclick="plusDivs(1)"> <img src="images/fleche"/></button>
+                        <button onclick="plusDivs(1)"> <img src="images/Fleche.png" name="Fleche" onmouseover="Fleche.src='images/Fleche_noire'"  onmouseout="Fleche.src='images/Fleche.png'"></button>
                 </div>            
             </div>
         </div>
@@ -48,7 +48,7 @@
                                     
                 </div>
                 <div class="legende_droite">
-                        <button onclick="plusDivs(1)"> <img src="images/fleche"/></button>
+                        <button onclick="plusDivs(1)"> <img src="images/Fleche.png" name="Fleche1" onmouseover="Fleche1.src='images/Fleche_noire'"  onmouseout="Fleche1.src='images/Fleche.png'"></button>
                 </div>            
             </div>
         </div>
@@ -67,7 +67,7 @@
                                     
                 </div>
                 <div class="legende_droite">
-                    <button onclick="plusDivs(1)"> <img src="images/fleche"/></button>
+                    <button onclick="plusDivs(1)"> <img src="images/Fleche.png" name="Fleche2" onmouseover="Fleche2.src='images/Fleche_noire'"  onmouseout="Fleche2.src='images/Fleche.png'"></button>
                 </div>            
             </div>
         </div>
@@ -76,13 +76,16 @@
         <div class="legende_3">
             <ul>
                 <li class="carreViolet">
-                    <p><B>01. CONSEIL</B></p>
+                    <p><B>01. CONSEIL</B></p><img src="images/fleche_bas.png">
+                    <div class="sousText"><p>Une &eacute;quipe d'experts qui vous accompagne</p></div>
                 </li>
                 <li class="carreBleu">
-                    <p><B>02. APPLICATION</B></p>
+                    <p><B>02. APPLICATION</B></p><img src="images/fleche_bas.png">
+                    <div class="sousText"><p>D&eacute;veloppement de solutions innovantes</p></div>
                 </li>
                 <li class="carreOrange">
-                    <p><B>03. ADAPTATION</B></p>
+                    <p><B>03. ADAPTATION</B></p><img src="images/fleche_bas.png">
+                    <div class="sousText"><p>Des produits totalement sur-mesure</p></div>
                 </li>
             </ul>
         </div>

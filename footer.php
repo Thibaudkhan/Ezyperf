@@ -47,11 +47,11 @@
 			<div class="bloc3">
 				<ul>
 					<li class="enter_2"><a href="#1" ><B>CONTACT</B></a></li>
-					<li><p><i class="grossissement fas fa-mobile-alt"></i>&nbsp;&nbsp;&nbsp;&nbsp;+33 (0)1 55 43 15 15</p></li>
+					<li><p><i class="grossissement fas fa-phone"></i>&nbsp;&nbsp;&nbsp;<a href="tel : +33155431515">&nbsp;&nbsp;&nbsp;&nbsp;+33 (0)1 55 43 15 15</a></p></li>
 					<br />
-					<li><p><i class="grossissement far fa-envelope"></i>&nbsp;&nbsp;&nbsp;sales@ezyperf.com</p></li>
+					<li><p><i class="grossissement far fa-envelope"></i>&nbsp;&nbsp;&nbsp;<a href="mailto:contact@ezyperf.com?Subject=Je%20vous%20contacte%20depuis%20ezyperf.com" target="_blank">&nbsp;&nbsp;&nbsp;contact@ezyperf.com</a></p></li>
 					<br />
-					<li><p><i class="grossissement fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;Nous suivre sur linkedin</p></li>
+					<li><p><i class="grossissement fab fa-linkedin"></i>&nbsp;&nbsp;&nbsp;<a href="https://www.linkedin.com/company/ezyperf/">Nous suivre sur linkedin</a></p></li>
 				</ul>
 				
 			</div>

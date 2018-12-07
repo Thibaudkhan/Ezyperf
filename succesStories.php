@@ -50,10 +50,10 @@
 					</div>
 				</div>
 				<div class="legende_gauche">
-	          	  <button onclick="plusDivs(1)"> <img src="images/fleche_gauche"/></button>
+	          	  <button onclick="plusDivs(1)"> <img src="images/fleche_gauche" name="FlecheG" onmouseover="FlecheG.src='images/Fleche_noireG'"  onmouseout="FlecheG.src='images/fleche_gauche.png'"></button>
 	        	</div>
 				<div class="legende_droite">
-                	<button onclick="plusDivs(1)"> <img src="images/fleche_droite"/></button>
+                	<button onclick="plusDivs(1)"> <img src="images/fleche_droite" name="Fleche" onmouseover="Fleche.src='images/Fleche_noireD'"  onmouseout="Fleche.src='images/fleche_droite.png'"></button>
         		</div>
 			</div>
 			<div class="grosBloc">
@@ -68,10 +68,10 @@
 					</div>
 				</div>
 				<div class="legende_gauche">
-	          	  <button onclick="plusDivs(-1)"> <img src="images/fleche_gauche"/></button>
+	          	  <button onclick="plusDivs(-1)"> <img src="images/fleche_gauche" name="FlecheG1" onmouseover="FlecheG1.src='images/Fleche_noireG'"  onmouseout="FlecheG1.src='images/fleche_gauche.png'"></button>
 	        	</div>
 				<div class="legende_droite">
-	          	  <button onclick="plusDivs(1)"> <img src="images/fleche_droite"/></button>
+	          	  <button onclick="plusDivs(1)"> <img src="images/fleche_droite" name="Fleche1" onmouseover="Fleche1.src='images/Fleche_noireD'"  onmouseout="Fleche1.src='images/fleche_droite.png'"></button>
 	        	</div>
         	</div>
         	<div class="grosBloc">
@@ -86,10 +86,10 @@
 					</div>
 				</div>
 				<div class="legende_gauche">
-	          	  <button onclick="plusDivs(-1)"> <img src="images/fleche_gauche"/></button>
+	          	  <button onclick="plusDivs(-1)"> <img src="images/fleche_gauche" name="FlecheG2" onmouseover="FlecheG2.src='images/Fleche_noireG'"  onmouseout="FlecheG2.src='images/fleche_gauche.png'"></button>
 	        	</div>
 				<div class="legende_droite">
-	          	  <button onclick="plusDivs(1)"> <img src="images/fleche_droite"/></button>
+	          	  <button onclick="plusDivs(1)"> <img src="images/fleche_droite" name="Fleche2" onmouseover="Fleche2.src='images/Fleche_noireD'"  onmouseout="Fleche2.src='images/fleche_droite.png'"></button>
 	        	</div>
         	</div>
 		</div>
