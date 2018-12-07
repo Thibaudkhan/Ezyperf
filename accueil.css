@@ -230,7 +230,8 @@ li{
   padding: 0;
 }
 .blocResponsive p{
-  margin: 0 0 0 70px;
+  text-align: center;
+  margin: 0 0 0 0;
   padding: 10px 0 0 0;
   font-size: 21px;
   letter-spacing: 1px;
