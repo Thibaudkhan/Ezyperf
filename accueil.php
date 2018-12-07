@@ -74,7 +74,7 @@
     </div>
     <div class="blocResponsive" >
         <div class="legende_3">
-            <ul>
+            <ul class="ul">
                 <li class="carreViolet">
                     <p><B>01. CONSEIL</B></p><img src="images/fleche_bas.png">
                     <div class="sousText"><p>Une &eacute;quipe d'experts qui vous accompagne</p></div>

@@ -224,7 +224,7 @@ li{
 }
 
 
-.legende_3 ul{
+.legende_3 .ul{
   transition: all 200ms ease-in;
   margin: 200px 0 0 0 ;
   padding: 0;
@@ -273,7 +273,7 @@ li{
 
 }
 
-ul:hover {
+.ul:hover {
   margin-top: 80px;
 }
 
