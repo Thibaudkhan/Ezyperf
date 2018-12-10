@@ -40,10 +40,10 @@
 			</div>
 			<div class="grosBloc">
 				<div class="blocTemoignage">
-					<h2>RENAUD POUGET</h2>
-					<h3>Responsable Capex - <strong>EVIAN Volvic World Sources, </strong> Groupe DANONE</h3>
+					<h2>LAURENCE ROUYER</h2>
+					<h3>Contrôleur Europe - <strong>HANES BRAND Inc. France</strong> </h3>
 					<div class="basDuTemoignage">
-						<div class="imageTexte"><img src="images/DanoneC.jpg"></div>
+						<div class="imageTexte"><img src="images/HanesC.png"></div>
 						<div class="texte">
 							<p> <img src="images/go.png"> Plus que la mise en &#156;uvre d'un outil,<br /> <strong>l'accompagnement et l'expertise d'Ezyperf</strong><br /> nous ont permis <strong>d'optimiser nos processus de gestion<br /> des investissements</strong> dans le cadre du projet EVIAN 2015 <a><img src="images/gf.png"></a></p>
 						</div>
@@ -58,12 +58,12 @@
 			</div>
 			<div class="grosBloc">
 				<div class="blocTemoignage ">
-					<h2>RENAUD POUGET (1)</h2>
+					<h2>RENAUD POUGET </h2>
 					<h3>Responsable Capex - <strong>EVIAN Volvic World Sources, </strong> Groupe DANONE</h3>
 					<div class="basDuTemoignage">
 						<div class="imageTexte"><img src="images/DanoneC.jpg"></div>
 						<div class="texte">
-							<p> <img src="images/go.png"> Plus que la mise en &#156;uvre d'un outil,<br /> <strong>l'accompagnement et l'expertise d'Ezyperf</strong><br /> nous ont permis <strong>d'optimiser nos processus de gestion<br /> des investissements</strong> dans le cadre du projet EVIAN 2015 <a><img src="images/gf.png"></a></p>
+							<p> <img src="images/go.png"> Avec notre partenariat Ezyperf, nous avons mis en place un système collaboratif de simulations des marges et supprimé tous les fichiers Excel de pilotage (env. 800). La DG valide en temps réel des contrats négociés avec les distributeurs dans EzyVentes <a><img src="images/gf.png"></a></p>
 						</div>
 					</div>
 				</div>
@@ -76,12 +76,12 @@
         	</div>
         	<div class="grosBloc">
 				<div class="blocTemoignage ">
-					<h2>RENAUD POUGET (2)</h2>
-					<h3>Responsable Capex - <strong>EVIAN Volvic World Sources, </strong> Groupe DANONE</h3>
+					<h2>Dario PAEZ</h2>
+					<h3>Ingénieur Génie Civil - <strong>Savencia F&D Argentina</strong></h3>
 					<div class="basDuTemoignage">
-						<div class="imageTexte"><img src="images/DanoneC.jpg"></div>
+						<div class="imageTexte"><img src="images/SavenciaC.png"></div>
 						<div class="texte">
-							<p> <img src="images/go.png"> Plus que la mise en &#156;uvre d'un outil,<br /> <strong>l'accompagnement et l'expertise d'Ezyperf</strong><br /> nous ont permis <strong>d'optimiser nos processus de gestion<br /> des investissements</strong> dans le cadre du projet EVIAN 2015 <a><img src="images/gf.png"></a></p>
+							<p> <img src="images/go.png"> Ezycapex nous permet de mesurer en temps réel l’évolution de nos projets et nous engage à faire nos estimations budgétaires dans les délais en réduisant nos écarts pour atteindre nos objectifs. L’interface du logiciel est assez simple et à la fois très précise, ce qui nous permet de trier l’information par projet, par usine, par region, etc. d'une forme très agile <a><img src="images/gf.png"></a></p>
 						</div>
 					</div>
 				</div>
